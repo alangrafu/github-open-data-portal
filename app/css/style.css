@@ -1,0 +1,22 @@
+.dataset-table
+  {
+  	border-collapse:collapse;
+  	font-family: Monaco;
+  	width:100%;
+  }
+  .dataset-table-element
+  {
+  	border: 1px solid grey;
+  	padding:3px;
+  }
+  #search-datasets
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.search-dataset{
+
+  font-family: Monaco
+}
