@@ -12,7 +12,7 @@ GDP = {
 		$table.prependTo($div);
 		var $input = $("<input id='search-datasets' value='' class='search-dataset'/>");
 		$input.prependTo($div);
-		$("<label id='label-search-datasets' for='search-datasets' class='search-dataset'>Search</label>").prependTo($div);
+		$("<label id='label-search-datasets' for='search-datasets' class='search-dataset'>Search  </label>").prependTo($div);
 
 		var url = "https://api.github.com/repos/"+self.config.userName+"/"+self.config.projectName+"/contents/"+self.config.rootDir
 		$.ajax({
