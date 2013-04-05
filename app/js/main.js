@@ -1,7 +1,7 @@
 GDP = {
 	config: {
-		projectName: "github-open-data-portal",
-		userName: "alangrafu",
+		projectName: "github-open-data-portal", //Change this by doing GDP.config.projectName = 'foo' before GDP.render()
+		userName: "alangrafu", //Change this by doing GDP.config.userName = 'bar' before GDP.render()
 		rootDir: "data"
 	},
 	render: function(divId){
