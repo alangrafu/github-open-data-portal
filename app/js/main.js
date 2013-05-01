@@ -11,6 +11,8 @@ GDP = {
 		var $table = $("<table id='open-datasets' class='dataset-table dataset-table-element'></table>");
 		$table.prependTo($div);
 		var $input = $("<input id='search-datasets' value='' class='search-dataset'/>");
+		var licenseUrl = "https://raw.github.com/"+self.config.userName+"/"+self.config.projectName+"/master/LICENSE";
+		$div.append('<div><small class="license"><a href="'+licenseUrl+'">License</small></div>');
 		$input.prependTo($div);
 		$("<label id='label-search-datasets' for='search-datasets' class='search-dataset'>Search  </label>").prependTo($div);
 
